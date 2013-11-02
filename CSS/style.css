@@ -1,0 +1,109 @@
+@font-face{
+	font-family: "Chalet";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/Chalet.ttf);
+}
+
+body{
+	background: #FFF url(../img/fondo-contenido.png);
+	color: white;
+	font-family: "Chalet", Helvetica, Verdana;
+	font-size: 16px;
+	text-align: center;
+}
+
+header,nav,footer,article,#contenedor{
+	max-width: 900px;
+	border-radius: .5em;
+	background-color: #1A242F;
+	margin: 5px auto;
+}
+
+h2{
+	color: green;
+}
+
+footer{
+	padding: 5px;
+}
+
+section aside, #principal{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 25%;
+}
+
+#principal{
+	width: 70%;
+}
+
+header{
+	background: #C6ECF9 url(../img/fondo-header.png);
+	width: 900px;
+	height: 115px
+	text-align: center;
+	padding: 60px 0;
+}
+
+header h1{
+	text-align: center;
+}
+
+nav{
+	background-color: #1A242F;
+	text-align: center;
+}
+
+nav a{
+	font-size: 20px;
+	background: #1E6381;
+	display: inline-block;
+	border: .1em solid white;
+	border-radius: 0 1em 0 1em;
+	color: white;
+	padding: .1em;
+	width: 200px;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+article section{
+	overflow: hidden;
+	vertical-align: top;
+}
+article img{
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+article p{
+	float: left;
+	width: 70%;
+}
+
+
+.cambio{
+	-ms-transition: all 2.5s ease-out;
+	-moz-transition: all 2.5s ease-out;
+	-o-transition: all 2.5s ease-out;
+	-webkit-transition: all 2.5s ease-out;
+	transition: all 2.5s ease-out;
+}
+
+#contendor{
+	width: 100%;
+}
+
+.boton {
+padding: 5px;
+border-radius: 5px;
+background-color: #EE8411;
+color: #fff;
+text-decoration: none;
+display: block;
+margin: 5px auto;
+width: 150px;
+text-align: center;
+}
